@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CardGame
 {
-    class Lincoln
+    class GameState
     {
         
         public Human    player1  { get; private set; }
@@ -17,7 +17,7 @@ namespace CardGame
         public int pointAccumulator { get; private set; }
         public bool continued { get; private set; }
 
-        public Lincoln(Human player1, Computer player2, Player prevPlayer)
+        public GameState(Human player1, Computer player2, Player prevPlayer)
         {
             this.player1 = player1;
             this.player2 = player2;

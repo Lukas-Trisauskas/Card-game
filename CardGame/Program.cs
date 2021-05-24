@@ -38,7 +38,7 @@ namespace CardGame
             nextPlayer = player1;
             prevPlayer = nextPlayer;
 
-            Lincoln match = new Lincoln(player1, player2, prevPlayer);
+            GameState match = new GameState(player1, player2, prevPlayer);
 
             bool gameTie = false;
             Player player = null;
