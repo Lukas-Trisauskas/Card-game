@@ -24,7 +24,7 @@ namespace CardGame
             this.prevPlayer = prevPlayer;
         }
 
-        // checks what conditions are meat and updates the state of the match
+        // checks what conditions are met and updates the state of the match
         public void CheckState()
         {
             if (player1 > player2)
